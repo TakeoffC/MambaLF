@@ -38,14 +38,12 @@ python datasets/prepare_coco.py --raw_dir datasets/COCO/train2017/ --saved_dir d
 ```
 
 #### 6. Training MambaLF
-To train the model (v0) on COCO dataset, run:
+To train the model on COCO dataset, run:
 ```
 python main.py --train_root datasets/COCO/train2017/ --train_txt datasets/COCO/train2017.txt
 ```
 
 #### 7. Evaluating MambaLF
-## Evaluation
-###  Evaluation on HPatches dataset
 For the evaluation of **MambaLF**, we use the **"image-matching-toolbox"** to compare its performance with other methods on the **HPatches** and **RDNIM** datasets.  
 
 The evaluation toolbox and datasets can be found at the following links:  
